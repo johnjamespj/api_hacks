@@ -1,0 +1,12 @@
+name: api_hacks
+description: Public API hacks that I use to get interesting data for my apps.
+version: 0.0.1
+author: johnjamespj
+homepage: https://github.com/johnjamespj
+
+dependencies:
+    spotify: ^0.3.6
+    oauth2: ^1.5.0
+
+dev_dependencies:
+    test: ^1.5.1
