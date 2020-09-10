@@ -45,7 +45,7 @@ class TokenCollector extends oauth2.Client {
     _credentials = oauth2.Credentials(
       accessToken,
       expiration:
-          DateTime.fromMicrosecondsSinceEpoch(accessTokenExpirationTimestampMs),
+          DateTime.fromMillisecondsSinceEpoch(accessTokenExpirationTimestampMs),
     );
 
     return this;
